@@ -1,12 +1,12 @@
 <section class="footer">
     <div class="uk-container">
-        <div class="uk-flex uk-flex-around uk-flex-wrap-middle" style="margin-top: 70px;">
-            <div class="uk-flex-left">
-                <p>&copy; 2018 Все права защищены</p>
+        <div class="uk-clearfix">
+            <div class="uk-child-width-1-3@s" uk-grid>
+                <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-flex-first">Left</div>
+                <div></div>
+                <div class="uk-height-small uk-flex uk-flex-center uk-flex-middle uk-flex-last">Right</div>
             </div>
-            <div class="uk-flex-right">
-                <p>Все права защищены</p>
-            </div>
+
         </div>
     </div>
 </section>
