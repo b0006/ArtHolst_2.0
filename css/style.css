@@ -1,0 +1,524 @@
+@font-face {
+    font-family: Gotham_Bold; /* Гарнитура шрифта */
+    src: url("../fonts/gotham_bold.otf"); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Gotham_Medium;
+    src: url("../fonts/gotham_medium.ttf");
+}
+
+.banner {
+    height: 100%;
+    background: url("../img/main_background.png") center / cover no-repeat;
+}
+
+/* NAVBAR */
+
+#nav-mobile {
+    display: none;
+}
+
+.top-navbar {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+#menu {
+    padding-left: 0;
+}
+
+ul#menu li{
+    display:inline-block;
+}
+
+ul#menu a {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+ul#menu a:hover {
+    color: #11749e;
+    border-bottom: 5px solid #11749e;
+}
+
+/* MOBILE NAVBAR*/
+
+.navbar-mobile {
+    z-index: 999;
+}
+
+.fa-bars {
+    color: white;
+    margin: 10px;
+}
+
+.nav-mobile {
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+    width: 100%;
+    background-color: #11749e;
+}
+
+.menu-mobile {
+    /*text-align: center;
+    padding: 0;*/
+    display: none;
+}
+
+.navbar-mobile-menu {
+    display: none;
+}
+
+.navbar-mobile {
+    display: none;
+}
+
+/*
+.menu-mobile li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style-type: none;
+    border-bottom: 1px solid #11749e;
+    background-color: white;
+}
+
+.menu-mobile li:hover {
+    background-color: #b4b4b4;
+}
+
+.menu-mobile {
+    margin-bottom: 0;
+}
+
+.menu-mobile a {
+    font-family: Gotham_Bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #11749e;
+    text-decoration: none;
+}
+*/
+/* LOGO ICON */
+
+.logo {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
+
+.logo p {
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    font-family: Gotham_Bold;
+    text-transform: uppercase;
+    padding-top: 17px;
+    height: 52px;
+    width: 67px;
+    background-color: #11749e;
+    -webkit-box-shadow: 10px 10px 0 0 #11749e;
+    box-shadow: 10px 10px 0 0 rgba(235, 237, 206, 0.58);
+}
+
+/* LOGO-SECTION */
+
+.main_logo {
+    display: -webkit-box;
+    height: 70%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.main_logo h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 152px;
+}
+
+.main_logo h3 {
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 24px;
+    color: #11749e;
+}
+
+/* SCROLL DOWN*/
+
+.scroll-down {
+    margin-top: 20px;
+    color: white;
+}
+
+.scroll-item {
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -khtml-border-radius: 40px;
+    border: 1px solid white;
+}
+
+.scroll-item i {
+    padding-top: 28px;
+}
+
+/* SECTION SERVICE */
+
+.service {
+    height: 740px;
+    color: white;
+    background-color: #11749e;
+}
+
+.service .item {
+    padding: 65px;
+    background-color: #2e85aa;
+}
+
+.service-title {
+    margin-bottom: 185px;
+}
+
+.overflow-title {
+    color: #3c8daf;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 247px;
+    margin-bottom: -190px;
+}
+
+.service-title h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 38px;
+}
+
+.service-items-title {
+    margin-top: 80px !important;
+}
+
+.service-item-title {
+    margin-top: 85px !important;
+    color: white;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 18px;
+}
+
+.service-items-desc {
+    margin-top: 30px !important;
+}
+
+/* NEWS1 */
+
+.news1 {
+    background: url("../img/news1.png") right no-repeat;
+    background-size: 50% auto;
+    width: 100%;
+    height: 395px;
+    background-color: #222222;
+    color: white;
+}
+
+.news1-desc {
+    padding-top: 44px;
+    padding-right: 15px;
+}
+
+.news2-desc {
+    padding-top: 44px;
+    padding-left: 64px;
+}
+
+
+.news2 {
+    background: url("../img/news2.png") left no-repeat;
+    background-size: 50% auto;
+    width: 100%;
+    height: 395px;
+    background-color: #f3f3f3;
+    color: black;
+}
+
+/* BLOG */
+
+.blog {
+    background-color: white;
+    height: 1020px;
+}
+
+.blog h1 {
+    color: black;
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 38px;
+}
+.blog-title {
+
+}
+
+.blog-desc {
+    margin-top: 90px !important;
+    margin-bottom: 40px !important;
+}
+
+.overflow-blog-title {
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 247px;
+    margin-bottom: -190px;
+    color: #d7d7d7;
+}
+
+/* Advantages */
+
+.adv {
+    background-color: #11749e;
+    color: white;
+}
+
+.adv p {
+    font-size: 17px;
+}
+
+/* REWS */
+
+.rews {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.callback {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/* CALLBACK */
+
+.callback {
+    font-family: Gotham_Bold;
+    color: #11749e;
+}
+
+.uk-dotnav > .uk-active > * {
+    background-color: #11749e;
+}
+
+.uk-dotnav > * > * {
+    border-color: black;
+}
+
+.callback h1 {
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 38px;
+    color: #11749e;
+}
+
+.callback h2 {
+    text-transform: uppercase;
+    font-family: Gotham_Bold;
+    font-size: 20px;
+    color: #11749e;
+}
+
+#callback-div {
+
+}
+
+.choose div.uk-card {
+    -webkit-box-shadow: 0 0 15px 3px #11749e;
+    box-shadow: 0 0 15px 3px #11749e;
+}
+
+/* footer */
+.footer {
+    background-color: #222222;
+    height: 150px;
+}
+
+/* ADAPTIVE */
+
+@media only screen and (max-width: 1329px) {
+    .empty {
+        display: none;
+    }
+
+    .news1 {
+        background-size: cover;
+        background-blend-mode: soft-light;
+    }
+
+    .news2 {
+        background-size: cover;
+        background-blend-mode: soft-light;
+    }
+
+    .news1-desc {
+        width: 100%;
+        padding-right: 0px !important;
+    }
+
+    .news2-desc {
+        width: 100%;
+        padding-left: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        display: none;
+    }
+
+    .top-navbar {
+        text-align: -moz-right;
+        text-align: right;
+    }
+
+    .main_logo h1 {
+        font-size: 100px !important;
+    }
+
+    .main_logo h3 {
+        font-size: 20px !important;
+    }
+}
+
+
+@media only screen and (max-width: 959px) {
+    .service {
+        height: 930px;
+    }
+
+    .service-item{
+        margin-bottom: 40px !important;
+    }
+    .blog {
+        height: 1400px !important;
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .nav-mobile {
+        display: block;
+    }
+
+    .navbar-mobile {
+        display: block;
+    }
+
+    .scroll-down {
+        display: none;
+    }
+
+    .top-navbar {
+        margin-bottom: 160px;
+    }
+
+    #menu {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 938px) {
+    .blog {
+        height: 1450px !important;
+    }
+}
+
+@media only screen and (max-width: 669px) {
+    .blog {
+        height: 1550px !important;
+    }
+}
+
+
+
+@media only screen and (max-width: 664px) {
+    .main_logo {
+        margin-top: 50px !important;
+    }
+
+    .main_logo h1 {
+        font-size: 80px !important;
+    }
+
+    .main_logo h3 {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .service {
+        height: 1400px;
+    }
+
+    .blog {
+        height: 2250px !important;
+    }
+}
+
+@media only screen and (max-width: 622px) {
+    .blog {
+        height: 2350px !important;
+    }
+}
+
+@media only screen and (max-width: 555px) {
+    .service {
+        height: 1430px;
+    }
+}
+
+@media only screen and (max-width: 508px) {
+    .main_logo h3 {
+        letter-spacing: 0px;
+    }
+}
+
+@media only screen and (max-width: 486px) {
+    .blog {
+        height: 2450px !important;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .main_logo {
+        height: 40%;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .service {
+        height: 1550px;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .news1 {
+        height: 440px !important;
+    }
+
+    .news2 {
+        height: 440px !important;
+    }
+}
