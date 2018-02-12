@@ -1,16 +1,16 @@
 @font-face {
     font-family: Gotham_Bold; /* Гарнитура шрифта */
-    src: url("../fonts/gotham_bold.otf"); /* Путь к файлу со шрифтом */
+    src: url("/fonts/gotham_bold.otf"); /* Путь к файлу со шрифтом */
 }
 
 @font-face {
     font-family: Gotham_Medium;
-    src: url("../fonts/gotham_medium.ttf");
+    src: url("/fonts/gotham_medium.ttf");
 }
 
 .banner {
     height: 100%;
-    background: url("../img/main_background.png") center / cover no-repeat;
+    background: url("/img/main_background.png") center / cover no-repeat;
 }
 
 /* NAVBAR */
